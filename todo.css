@@ -1,0 +1,105 @@
+body{
+    background-color: white;
+    text-align: center;
+    background-image: url("wall.jpeg");
+    background-size: cover;
+   
+    
+   
+}
+.container{
+
+    display:inline-block;
+    
+    width:400px;
+    margin-top: 60px;
+
+    border:2px solid blue;
+    
+    
+background-color:#2a275c;box-shadow: 2px 4px 5px blue;
+
+}
+.container-details{
+    margin:20px;
+    background-color:#2a275c;
+   padding-top: 10px;
+   height:120px;
+   border:2px solid blue;
+   border-radius: 10px 100px / 120px;
+   box-shadow: 4px 5px 5px blue;
+   
+}
+ h1{
+padding-bottom: 10px;
+font-size: 40px;
+color:yellow
+}
+
+
+input{
+    background-color:#2a275c;
+    width:300px;
+    height:30px;
+    font-size: 20px;   
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border:2px solid blue;
+    box-shadow: 1px 2px 2px blue; 
+    color:white;
+
+}
+input:active{
+    border:2px solid blue;
+    box-shadow: 1px 2px 2px blue;
+}
+button{
+    width:50px;
+
+    height:35px;
+    font-size: 20px;
+    background-color:#2a275c;
+    color:white;
+    font-weight: 350;
+    border: none;
+    margin-left:5px;
+    border:2px solid blue;
+    box-shadow: 2px 2px 10px blue;
+}
+button:hover{
+    background-color: cyan;
+    color:rgb(98, 43, 226);
+    box-shadow: 2px 2px 30px cyan;
+  cursor: pointer;
+    
+}
+button:active{
+    background-color: rgb(245, 245, 86);
+    color:blue;
+   
+
+}
+.text1 li{
+    position: relative;
+    
+    
+     margin-top:15px;
+     margin-bottom: 20px;
+     width: 350px;
+     padding: 5px;
+     margin-left: 22px;
+     font-size:22px;
+    color:white;
+    border:2px solid blue;
+    box-shadow: 2px 3px 8px blue;
+
+}
+.text1 li i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
+ .text1 li i:active{
+    color: yellow;
+    box-shadow: 2px 2px 20px yellow;
+ } 
